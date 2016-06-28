@@ -12,15 +12,21 @@ http://openweathermap.org/api
 
 https://console.developers.google.com
 
-Clone Repo > Run
+```sh
+Clone Repo
+```
 
+Run
 ```sh
 npm install
 ```
+
+create a file with path
 ```sh
-create a file with path ~/private/config.js
+ ~/private/config.js
 ```
-place this in that file
+
+Insert the following snippet into the created config file. (and of course place your api keys where appropriate.)
 ```sh
 export const SECRET = {
   weatherApiKey: "YOUR_WEATHER_API_KEY_HERE",
@@ -28,12 +34,20 @@ export const SECRET = {
 };
 ```
 
+Run
+```sh
+node ./node_modules/webpack/bin/webpack
+```
+
+Run
 ```sh
 npm start
 ```
 
-`go to`
+go to
+```sh
  http://localhost:8080/
+```
 
 ## Known Issues/Future Things-To-Do
 - Search Bar Does not clear when you select city.
