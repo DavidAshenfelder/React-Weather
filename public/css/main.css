@@ -1,0 +1,129 @@
+body{
+  background-color: #EBECED;
+  font-size: 1.2em;
+}
+
+.weather-wrapper {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.current-wrapper {
+  min-height: 220px;
+  max-height: 350;
+  width:100%;
+  color: #EBECED;
+  text-shadow: 1px 1px grey;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.main-header {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background: lightgrey;
+  border-radius: 3px;
+}
+
+.no-margin-top {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  width: 90%;
+}
+
+.input-group-header {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.main-icon {
+  font-size: 5em;
+}
+
+.maxMinTemp {
+  margin-top: 45px;
+  font-size: 1.8em;
+}
+
+.large-font {
+  font-size: 1.6em;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.margin-minus-20 {
+  margin-top: -5px;
+}
+
+.padding-top-10 {
+  padding-top: 10px;
+}
+
+.future-days-wrapper {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+  color: grey;
+}
+
+.light-line-item {
+  display: inline-flex;
+  background: #E6E7E8;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  border-top: 1px solid white;
+}
+
+.dark-line-item {
+  display: inline-flex;
+  background: #D4D5D6;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  border-top: 1px solid white;
+}
+
+.heightWidth10 {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.drop-container {
+  border: 3px dashed lightgrey;
+  border-radius: 5px;
+}
